@@ -39,7 +39,7 @@ const SignupForm = () => {
                         <TextField label='Email' name='email' type='email' />
                         <TextField label='Password' name='password' type='password' />
                         <TextField label='confirm password' name='confirmpassword' type='password' />
-                        <button className='btn btn-dark mt-3'>Register</button> 
+                        <button type='submit' className='btn btn-dark mt-3'>Register</button> 
                     </Form>
                 </div>
             )}

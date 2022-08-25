@@ -1,0 +1,19 @@
+.pagebtn{
+    width: 80%;
+    height: 40px;
+    list-style-type: none;
+    display: flex;
+}
+.pagebtn a{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 6px;
+    border: 1px solid lightgreen;
+    cursor: pointer;
+}
+.pagebtn a:hover{
+    background-color: lightgreen;
+}
+.activepage a{
+    background-color: lightgreen;
+}
