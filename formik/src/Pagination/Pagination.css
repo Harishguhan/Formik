@@ -1,19 +1,69 @@
-.pagebtn{
-    width: 80%;
-    height: 40px;
-    list-style-type: none;
-    display: flex;
+.pagebtn {
+  margin-top: 30px;
+  text-align: center;
+  width: 80%;
+  height: 40px;
+  list-style-type: none;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
 }
-.pagebtn a{
-    padding: 10px;
-    margin: 8px;
-    border-radius: 6px;
-    border: 1px solid lightgreen;
-    cursor: pointer;
+.pagebtn a {
+  color: coral;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 1px solid coral;
+  cursor: pointer;
+  text-decoration: none;
 }
-.pagebtn a:hover{
-    background-color: lightgreen;
+.pagebtn a:hover {
+  background-color: coral;
+  color: white;
 }
-.activepage a{
-    background-color: lightgreen;
+.activepage a {
+  background-color: coral;
+  color: white;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+  visibility: hidden;
+}
+.card:hover .icon{
+    visibility: visible;
+}
+.fa-facebook-f {
+  position: absolute;
+  top: 30%;
+  font-size: 25px;
+  border: 2px solid white;
+  padding: 7px;
+  border-radius: 5px;
+  color: white; 
+}
+.fa-whatsapp {
+  position: absolute;
+  top: 30%;
+  left: 20px;
+  font-size: 25px;
+  border: 2px solid white;
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+}
+.fa-square-twitter {
+  position: absolute;
+  top: 30%;
+  right: 20px;
+  font-size: 25px;
+  border: 2px solid white;
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+}
+
+.card-img-top:hover {
+  opacity: 0.5;
 }
